@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Rust_surnice{
+    width: 900px;
+    height: 446px;
+}
+.background-color_w{
+    width: 900px;
+    height: 260px;
+    margin-top: -20px;
+    background-color: #C198B6;
+    
+}
+.login{
+    background: #DA8181;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    border: none;
+}
+.login_1{
+    background: #DA8181;
+    border-radius: 5px;
+    width: 490px;
+    height: 40px;
+    border: none;
+}
+.resume{
+    background-color: #DA8181;
+    padding: 2px 5px;
+    border-radius: 10px;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic ;
+    font-weight: 800;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-left: -250px;
+}
+.Sign_in_entrance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic;
+}
+.input_registration{
+    display: flex;
+    padding: 23px 0;
+    margin-left: 250px;
+}
+.resume_button{
+    margin-left: 250px;
+}
+.login_text{
+    padding: 0 30px;
+    margin-left: -160px;
+    font-size: 32px;
+    font-weight: 900;
+}
+.resume{
+    background-color: #F6D2D2;
+    width: 249px;
+    height: 49px;
+    border-radius: 10px;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 40px;
+}
+

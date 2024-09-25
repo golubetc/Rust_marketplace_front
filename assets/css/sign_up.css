@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+a{
+    text-decoration: none;
+}
+.Sign_up_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Inria Serif", serif;
+    font-style: italic;
+}
+.sign_up_rust{
+    width: 900px;
+    height: 257px;
+}
+.text{
+    font-size: 40px;
+    font-weight: 900;
+}
+.input_registration{
+    display: flex;
+    padding: 23px 0;
+}
+.login_text{
+    padding: 0 30px;
+    margin-left: -160px;
+    font-size: 32px;
+    font-weight: 900;
+}
+.login{
+    background: #DA8181;
+    border-radius: 5px;
+    width: 463px;
+    height: 54px;
+    border: none;
+}
+.resume{
+    background-color: #DA8181;
+    padding: 2px 5px;
+    border-radius: 10px;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-left: -250px;
+}
+

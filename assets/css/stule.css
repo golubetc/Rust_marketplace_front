@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+.rust__logo{
+    width: 180px;
+    height: 120px;
+    margin-left: -20px;
+}
+.header{
+    background-color: #2D6085;
+    align-items: center;
+
+}
+a{
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic;
+}
+h1{
+    font-family: "Piedra", serif;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__hyperlinks{
+    text-decoration: none;
+    display: flex;
+    padding: 32px 30px;
+    font-weight: 900;
+    font-size: 36px;
+    align-items: center;
+}
+.header__replenishment{
+    padding: 0 30px;
+}
+.header__sign_UP{
+
+    padding: 0px 30px;
+}
+.header__sign_IN{
+    padding: 0px 30px;
+}
+.replenishment{
+    color: #fff;
+    background-color: #10225B;
+    border-radius: 20px;
+    padding: 6px 32px;
+    
+}
+.sign_UP{
+    color: #fff;
+    background-color: #10225B;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+.sign_IN{
+    color: #fff;
+    background-color: #10225B;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+.main{
+    background: url(../img/rust_main__img.svg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    
+}
+.text{
+    font-size: 65px;
+    color: #5285DB;
+    margin-top: 60px;
+    
+}
+.img_rast_icon1{
+    width: 30px;
+    height: 29px;
+    margin-right: 30px;
+}
+.img_rast_icon2{
+    width: 30px;
+    height: 29px;
+    margin-left: 30px; 
+}
+.center_rust{
+    margin-left: 80px;
+}
+.texts_info{
+    font-family: "Reggae One", system-ui;
+    padding: 20px 0;
+    margin-top: 30px;
+    
+}
+.texts{
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.text_center{
+    margin-left: 40px;
+}
+.catalog{
+    align-items: center;
+}
+.main__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.border_section{
+    background-color: #0C255E;
+    height: 2600px;
+    font-family: "Rubik Bubbles", system-ui;
+    
+}
+
+    
+
+.img__sels_top{
+    background-color: #000;
+    margin-top: 36px;
+    margin-left: 163px;
+}
+.skins_ak{
+    width: 163px;
+    height: 163px;
+    margin-left: 50px;
+    
+}
+
+.skins_berda{
+    width: 200px;
+    height: 163px;
+    margin-left: 30px;
+}
+.skins_thomas{
+    width: 163px;
+    height: 163px;
+    margin-left: 40px;
+
+}
+.skins_wight_set{
+    width: 250px;
+    height: 163px;
+}
+.skins_ice_set{
+    width: 285px;
+    height: 165px;
+}
+.skins_hazmat_ice{
+    width: 200px;
+    height: 163px;
+}
+.name_skins{
+    color: #090808;
+    margin-top: 10px;
+    font-size: 22px;
+    background-color: #7DBBCA;
+    width: 285px;
+    height: 40px;
+    padding: 5px 50px;
+    
+}
+.name_skins_berda{
+    color: #090808;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #7DBBCA;
+    width: 285px;
+    height: 40px;
+    padding: 5px 50px;
+}
+.name_skins_thomas{
+    color: #090808;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #7DBBCA;
+    width: 285px;
+    height: 40px;
+    padding: 5px 50px;
+}
+.name_skins_whiteSet{
+    color: #090808;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #7DBBCA;
+    width: 285px;
+    height: 40px;
+    padding: 5px 50px;
+}
+.price_skins_rub{
+    font-size: 24px;
+    color: #1F7A36;
+    margin-top: -215px;
+}
+.price_skins_usdt{ 
+    font-size: 24px;
+    color: #1F7A36;
+}
+.text__top{
+    color: #fff;
+    font-size: 48px;
+    font-family: "Reggae One", system-ui;
+    margin-left: 500px;
+
+}
+.top_skins{
+    display: flex;
+}
+.Top__sales_set{
+    margin-top: 124px;
+}
+.text_about_us{
+    color: #fff;
+    display: flex;
+    padding: 50px 0;
+    flex-direction: column;
+}
+.about_us_img-text{
+    display: flex;
+    gap: 30px;
+    margin-top: 124px;
+    margin-left: 87px;
+}
+.text_about_us{
+    font-family: "Reggae One", system-ui;
+    margin-top: -100px;
+}
+.about_us_infoText{
+    padding: 51px 0;
+}
+.about_us_title{
+    font-size: 48px;
+}
+.about_us_img-text{
+    padding: 23px 12px 23px 23px;
+    background-color: #2A55A2;
+    border-radius: 20px;
+    max-width: 1335px;
+}
+.coment_5Star{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: flex-start;
+    margin-top: 144px;
+    margin-left: 90px;
+    background-color: #2A55A2;
+    padding: 54px 387px 39px 80px;
+    border-radius: 20px;
+    max-width: 1335px;
+}
+.star{
+    width: 126px;
+    height: 23px;
+    margin-top: 76px;
+}
+.naumber_date{
+    font-family: Inter;
+}
+.comment_text{
+    font-family: "Reggae One", system-ui;
+    font-size: 48px;
+    padding: 30px 0;
+}
+.comment_infoText{
+    font-family: Inter Bold Italik;
+    font-style: italic;
+    font-weight: 900;
+    padding: 38px 0;
+}
+.reviews{
+    display: flex;
+    background-color: #A3D7FF;
+    padding: 0 562px 32px 125px;
+    max-width: 1335px;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top: -20px;
+    color: #fff;
+}
+.img_review{
+    padding: 0 20px;
+}
+.golubec__reviews_text_comment{
+    padding: 38px 0;
+    font-size: 16px;
+    font-family: SERIF;
+}
+.reviews_text{
+    margin-top: 50px;
+}
+.reviews_text_nik{
+    font-family: "Reggae One", system-ui;
+    font-size: 24px;
+}
+
+
+.img_rest_red{
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+}
+.border-email{
+    background-color: #D0737A;
+    padding: 28px 35px 28px 33px;
+    display: flex;
+    margin-top: 61px;
+    margin-left: 85px;
+    border-radius: 20px;
+    max-width: 1335px;
+
+}
+.text-button{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-left: -60px;
+    margin-top: -170px;
+}
+.newslette{
+    font-size: 24px;
+    margin-left: 29px;
+    color: #fff;
+    font-family: "Reggae One", system-ui;
+}
+.input_email{
+    margin-left: 70px;
+}
+.email{
+    width: 363px;
+    height: 61px;
+    border-radius: 20px;
+    background-color: #E7D8D8;
+    padding: 14px 34px;
+    font-size: 24px;
+}
+.form_subsribe{
+    display: flex;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+.subsribe{
+    background-color: #f9f6f6;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 24px;
+}
+.button_subsribe{
+    padding: 0 30px;
+}
+.Technical_support{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: url(../img/1570865866_ARtworkRUST1.svg) no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 17px;
+}
+
+.support_contacts{
+    font-size: 32px;
+    font-family: serif;
+    font-weight: 900;
+}
+.number{
+    padding: 30px 0 5px 0;
+    font-size: 32px;
+}
+.email_contacts{
+    font-size: 32px;
+}
+.telegram_supports{
+    font-size: 32px;
+    padding: 40px 0;
+    font-family: serif;
+}
+
+
+
+
+
+
